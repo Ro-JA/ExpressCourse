@@ -1,6 +1,7 @@
 package com.example.expresscourse;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -23,10 +24,30 @@ public class MainActivity extends AppCompatActivity {
         mInputEditText = findViewById(R.id.editText);
     }
 
+    final String TAG = "ExpresCourse";
+
     public void onClick(View view) {
-        String result = mInputEditText.getText().toString();
-        mInfoTextView.setText(result);
-        mInputEditText.setText("");
+        int x = 3;
+        x *= x;
+        Log.i(TAG, Integer.toString(x));
+        x *= x;
+        Log.i(TAG, Integer.toString(x));
+        x *= x;
+        Log.i(TAG, Integer.toString(x));
+        x *= x;
+        Log.i(TAG, Integer.toString(x));
+        x *= x;
+        Log.i(TAG, Integer.toString(x));
+        x *= x;
+        Log.i(TAG, Integer.toString(x));
+        x *= x;
+        Log.i(TAG, Integer.toString(x));
+        x *= x;
+        Log.i(TAG, Integer.toString(x));
+        x *= x;
+        Log.i(TAG, Integer.toString(x));
+        x *= x;
+        Log.i(TAG, Integer.toString(x));
 
     }
 }
