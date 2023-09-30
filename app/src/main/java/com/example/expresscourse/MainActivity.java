@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         mInputEditText = findViewById(R.id.editText);
     }
 
-    final String TAG = "ExpresCourse";
+    final String TAG = "ExpressCourse";
 
     public void onClick(View view) {
         int x = 3;
